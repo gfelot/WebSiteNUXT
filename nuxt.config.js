@@ -42,8 +42,8 @@ module.exports = {
     vendor: ['axios']
   },
   css: [
-    { src: 'bulma/bulma.sass', lang: 'sass' },
-    { src: 'font-awesome/scss/font-awesome.scss', lang: 'scss' }
+    'font-awesome/scss/font-awesome.scss',
+    '@/assets/main.sass'
   ],
   plugins: [
     {
